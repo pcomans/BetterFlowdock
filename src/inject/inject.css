@@ -51,3 +51,7 @@ li.chat-message time.timestamp {
 .last-read-message-text {
   display: none;
 }*/
+
+.chat-message[title*='has seen this message'] {
+  background-color: seashell;
+}
