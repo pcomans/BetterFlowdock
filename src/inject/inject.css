@@ -52,6 +52,18 @@ li.chat-message time.timestamp {
   display: none;
 }*/
 
-.chat-message[title*='has seen this message'] {
+.chat-message.me[title*='has seen this message'] {
   background-color: seashell;
+}
+.chat-message.message.deleted {
+  display: none;
+}
+
+img.emojie:hover {
+  transform: scale(2.0);
+}
+
+a[data-tag-search='overholt']{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
